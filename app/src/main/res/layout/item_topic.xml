@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:id="@+id/ltItemTopic"
+    android:minHeight="64dp"
+    android:clickable="true">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgTopic"
+            android:layout_width="124dp"
+            android:layout_height="64dp"
+            android:src="@drawable/im_1"/>
+        <TextView
+            android:id="@+id/txtTopicName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgTopic"
+            android:layout_centerVertical="true"
+            android:text="Vova"
+            android:textSize="20sp"
+            android:lines="1"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id="@+id/imgOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/home_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
